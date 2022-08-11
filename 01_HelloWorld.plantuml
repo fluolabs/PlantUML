@@ -1,0 +1,10 @@
+' https://plantuml.com/
+' Using PlantUML in VSCode (8/11/22)
+' https://www.youtube.com/watch?v=xkwJ9GwgZJU
+
+@startuml Hello World
+skinparam Style strictuml
+skinparam SequenceMessageAlignment center
+A -> B : Hello world
+A <- B : Hi
+@enduml
